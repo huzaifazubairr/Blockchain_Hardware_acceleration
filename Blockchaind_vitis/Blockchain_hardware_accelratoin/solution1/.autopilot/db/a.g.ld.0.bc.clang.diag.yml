@@ -1,0 +1,1843 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi32ELb0EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<32, false>::ssdm_int(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi32EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<32>::ap_uint(int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 215, Column: 76 }
+Function:        _ZN11ap_int_baseILi32ELb0EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<32, false>::ssdm_int(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi32EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<32>::ap_uint(unsigned int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1669, Column: 558 }
+Function:        _ZrsILi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1669, Column: 228 }
+Function:        _ZlsILi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1498, Column: 520 }
+Function:        _ZorILi32ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE5logicERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1499, Column: 520 }
+Function:        _ZeoILi32ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE5logicERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi33ELb0EEC2ILi32ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi33ELb0EEC2EDq33_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<33, false>::ap_int_base<32, false>(ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi33ELb0EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi33ELb0EEC2EDq33_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<33, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 339 }
+Function:        _ZplILi32ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<33, false>::ap_int_base<32, false>(ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 516 }
+Function:        _ZplILi32ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<33, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 427 }
+Function:        _ZplILi32ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<33, false>::ap_int_base<32, false>(ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi34ELb0EEC2ILi33ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi34ELb0EEC2EDq34_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<34, false>::ap_int_base<33, false>(ap_int_base<33, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi34ELb0EEC2ILi32ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi34ELb0EEC2EDq34_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<34, false>::ap_int_base<32, false>(ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi34ELb0EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi34ELb0EEC2EDq34_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<34, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 339 }
+Function:        _ZplILi33ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<34, false>::ap_int_base<33, false>(ap_int_base<33, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<33, false>::RType<32, false>::plus operator+<33, false, 32, false>(ap_int_base<33, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 516 }
+Function:        _ZplILi33ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<34, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<33, false>::RType<32, false>::plus operator+<33, false, 32, false>(ap_int_base<33, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 427 }
+Function:        _ZplILi33ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<34, false>::ap_int_base<32, false>(ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<33, false>::RType<32, false>::plus operator+<33, false, 32, false>(ap_int_base<33, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi35ELb0EEC2ILi34ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi35ELb0EEC2EDq35_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<35, false>::ap_int_base<34, false>(ap_int_base<34, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi35ELb0EEC2ILi32ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi35ELb0EEC2EDq35_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<35, false>::ap_int_base<32, false>(ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi35ELb0EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi35ELb0EEC2EDq35_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<35, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 339 }
+Function:        _ZplILi34ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<35, false>::ap_int_base<34, false>(ap_int_base<34, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<34, false>::RType<32, false>::plus operator+<34, false, 32, false>(ap_int_base<34, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 516 }
+Function:        _ZplILi34ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<35, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<34, false>::RType<32, false>::plus operator+<34, false, 32, false>(ap_int_base<34, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 427 }
+Function:        _ZplILi34ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<35, false>::ap_int_base<32, false>(ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<34, false>::RType<32, false>::plus operator+<34, false, 32, false>(ap_int_base<34, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi32ELb0EEC2ILi35ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<32, false>::ssdm_int(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::ap_int_base<35, false>(ap_int_base<35, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi32EEC2ILi35EEERKS_IXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base<35, false>(ap_int_base<35, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<32>::ap_uint<35>(ap_uint<35> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1497, Column: 520 }
+Function:        _ZanILi32ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE5logicERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::RType<32, false>::logic operator&<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1497, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 908, Column: 31 }
+Function:        _ZNK11ap_int_baseILi32ELb0EEcoEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::operator~() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 907, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi36ELb0EEC2ILi35ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi36ELb0EEC2EDq36_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<36, false>::ap_int_base<35, false>(ap_int_base<35, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi36ELb0EEC2ILi32ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi36ELb0EEC2EDq36_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<36, false>::ap_int_base<32, false>(ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi36ELb0EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi36ELb0EEC2EDq36_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<36, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 339 }
+Function:        _ZplILi35ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<36, false>::ap_int_base<35, false>(ap_int_base<35, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<35, false>::RType<32, false>::plus operator+<35, false, 32, false>(ap_int_base<35, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 516 }
+Function:        _ZplILi35ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<36, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<35, false>::RType<32, false>::plus operator+<35, false, 32, false>(ap_int_base<35, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 427 }
+Function:        _ZplILi35ELb0ELi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<36, false>::ap_int_base<32, false>(ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<35, false>::RType<32, false>::plus operator+<35, false, 32, false>(ap_int_base<35, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi32ELb0EEC2ILi36ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<32, false>::ssdm_int(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::ap_int_base<36, false>(ap_int_base<36, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi32EEC2ILi36EEERKS_IXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base<36, false>(ap_int_base<36, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<32>::ap_uint<36>(ap_uint<36> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi32ELb0EEC2ILi33ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<32, false>::ssdm_int(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, false>::ap_int_base<33, false>(ap_int_base<33, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi32EEC2ILi33EEERKS_IXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::ap_int_base<33, false>(ap_int_base<33, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<32>::ap_uint<33>(ap_uint<33> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi4ELb0EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi4ELb0EEC2EDq4_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<4, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi4EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<4, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<4>::ap_uint(int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi1ELb0EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi1ELb0EEC2EDq1_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<1, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<1, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<1>::ap_uint(int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 258, Column: 51 }
+Function:        _ZN3hls6streamINS_4axisI7ap_uintILi32EELm0ELm0ELm0EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>::get_user_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 75, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<32>, 0ul, 0ul, 0ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 261, Column: 26 }
+Function:        _ZN3hls6streamINS_4axisI7ap_uintILi32EELm0ELm0ELm0EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>::get_dest_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<32>, 0ul, 0ul, 0ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 260, Column: 68 }
+Function:        _ZN3hls6streamINS_4axisI7ap_uintILi32EELm0ELm0ELm0EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>::get_id_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 79, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<32>, 0ul, 0ul, 0ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 260, Column: 37 }
+Function:        _ZN3hls6streamINS_4axisI7ap_uintILi32EELm0ELm0ELm0EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>::get_user_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 75, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<32>, 0ul, 0ul, 0ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 259, Column: 40 }
+Function:        _ZN3hls6streamINS_4axisI7ap_uintILi32EELm0ELm0ELm0EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>::get_dest_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<32>, 0ul, 0ul, 0ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 259, Column: 24 }
+Function:        _ZN3hls6streamINS_4axisI7ap_uintILi32EELm0ELm0ELm0EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>::get_id_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 79, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<32>, 0ul, 0ul, 0ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 46, Column: 20 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<32>, 0ul, 0ul, 0ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 39, Column: 82 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 39, Column: 74 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 39, Column: 66 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 39, Column: 58 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 39, Column: 50 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 39, Column: 42 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 39, Column: 34 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 39, Column: 26 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 35, Column: 49 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 35, Column: 15 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 142 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 171 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 178 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator&<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1497, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 157 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 164 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator&<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1497, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 150 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator&<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1497, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 100 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 117 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 124 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 108 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 59 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 76 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 83 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 67 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 36 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 43 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 33, Column: 28 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 181 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<35, false>::RType<32, false>::plus operator+<35, false, 32, false>(ap_int_base<35, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 174 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<34, false>::RType<32, false>::plus operator+<34, false, 32, false>(ap_int_base<34, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 143 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<33, false>::RType<32, false>::plus operator+<33, false, 32, false>(ap_int_base<33, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 158 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 166 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator&<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1497, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 161 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::operator~() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 907, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 151 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator&<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1497, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 20 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 101 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 118 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 125 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 109 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 60 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 77 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 84 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 68 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 37 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 44 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 32, Column: 29 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 264 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<34, false>::RType<32, false>::plus operator+<34, false, 32, false>(ap_int_base<34, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 139 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<33, false>::RType<32, false>::plus operator+<33, false, 32, false>(ap_int_base<33, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 244 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 257 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 191 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 214 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 227 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 205 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 162 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 175 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 154 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 130 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::plus operator+<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 110 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 122 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 59 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator^<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1499, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 81 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 93 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 72 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 30 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::logic operator|<32, false, 32, false>(ap_int_base<32, false> const&, ap_int_base<32, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 42 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator<<<32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: sha256.cpp, Line: 23, Column: 21 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, false>::RType<32, false>::arg1 operator>><32, false>(ap_int_base<32, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'sha256_acc(hls::stream<ap_uint<32>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul>, 0>&)'
+    DebugLoc:        { File: sha256.cpp, Line: 3, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: sha256.cpp, Line: 8, Column: 9 }
+Function:        _Z10sha256_accRN3hls6streamI7ap_uintILi32EELi0EEERNS0_INS_4axisIS2_Lm0ELm0ELm0EEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          w
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...

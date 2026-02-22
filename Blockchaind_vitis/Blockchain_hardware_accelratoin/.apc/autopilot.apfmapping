@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="sha256.cpp" path="D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\sha256.cpp"/>
+    <originFiles name="sha256.h" path="D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\sha256.h"/>
+  </source>
+  <testbench>
+    <originFiles name="sha_256_tb.cpp" path="D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\sha_256_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

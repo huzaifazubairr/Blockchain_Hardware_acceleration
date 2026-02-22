@@ -1,0 +1,35 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "sha256_acc",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "D:\/VLSI_Getting_in_Semiconductors\/Projects\/Blockchain_Hardware_accelration\/Blockchaind_vitis\/Blockchain_hardware_accelratoin\/solution1\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "sha256_acc"
+              }]
+          }
+        },
+        {
+          "functionName": "sha256_acc",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "D:\/VLSI_Getting_in_Semiconductors\/Projects\/Blockchain_Hardware_accelration\/Blockchaind_vitis\/Blockchain_hardware_accelratoin\/solution1\/csynth.tcl",
+          "sourceLine": "16",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "sha256_acc"
+              }]
+          }
+        }
+      ]
+    }]}

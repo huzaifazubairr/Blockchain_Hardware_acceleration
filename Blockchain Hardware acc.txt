@@ -1,0 +1,25 @@
+Concept:
+        In a typical blockchain, a "node" has to perform thousands of heavy mathematical calculations per second to verify transactions or "mine" 	blocks. Doing this on a CPU is slow and consumes massive power.
+
+	Hardware acceleration offloads these specific tasks to your FPGA, where you can design custom logic to run them in parallel.
+
+
+Significance:
+	In blockchain, a hardware accelerator like an FPGA is significant because it offloads heavy cryptographic tasks such as hashing and signature verification from the CPU. This makes blockchain operations faster, more power-efficient, and scalable. FPGA-based acceleration allows parallel processing and custom logic, which improves transaction throughput and reduces energy consumption compared to software-only implementations.
+
+Bit-Level Manipulation: Blockchain algorithms (like SHA-256) involve a lot of bit-shifting and XORing. FPGAs do this "for free" in their routing, whereas a CPU has to use multiple instructions.
+
+Implimentation:
+
+
+Phase 1. High-Level Synthesis (The “Brain”)
+	In this phase, Vitis HLS is used to convert C++ code into a hardware IP block. The SHA-256 algorithm is implemented in C++, including the standard K constants and initial hash values H0–H7. HLS pragmas are added to optimize performance. The `m_axi` interface pragma is used to allow direct access to DDR memory. The `PIPELINE` pragma is applied to enable concurrent processing of data blocks, while the `UNROLL` pragma is applied to the 64 SHA-256 rounds to exploit parallelism at the hardware level. C-simulation is performed in Vitis HLS to verify correctness using a known test input such as “hello”. After successful verification, the design is exported as a Vivado IP.
+
+Phase 2. Hardware Block Design (The “Body”)
+	A new Vivado project is created targeting the Zybo Z7-20 board. The generated HLS IP is imported into the Vivado IP catalog. A block design is created by adding the ZYNQ7 Processing System and the SHA-256 IP. Connection Automation is used to automatically insert AXI interconnects, clocking, and reset logic. After validating the design, the bitstream is generated to configure the FPGA fabric.
+
+Phase 3. Software Layer (The “Controller”)
+	The hardware design is exported from Vivado as an XSA file. This file is imported into Vitis Unified IDE to create a platform and a basic C application. The auto-generated driver files for the HLS IP are used. The software handles message padding to form 512-bit blocks, writes input data to memory, triggers the SHA-256 hardware accelerator, and reads the computed hash back from the IP registers.
+
+Phase 4. Testing and Comparison
+	To evaluate performance, a software-only SHA-256 implementation is executed on the ARM processor and timed. The hardware-accelerated version is then executed and timed under the same conditions. The speedup is calculated by comparing both execution times. A significant improvement, such as 10× or 50× faster execution, demonstrates successful hardware acceleration of a blockchain-relevant cryptographic operation.

@@ -1,0 +1,85 @@
+---
+MainSourceFile:  'D:/VLSI_Getting_in_Semiconductors/Projects/Blockchain_Hardware_accelration/Blockchaind_vitis/Blockchain_hardware_accelratoin/solution1/.autopilot/db/sha256.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        'C:\Xilinx\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\Blockchain_hardware_accelratoin\solution1\.autopilot\db\sha256.pp.0.cpp'
+        Offset:          51700
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Xilinx\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\Blockchain_hardware_accelratoin\solution1\.autopilot\db\sha256.pp.0.cpp'
+        Offset:          258716
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'C:\Xilinx\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\Blockchain_hardware_accelratoin\solution1\.autopilot\db\sha256.pp.0.cpp'
+        Offset:          259155
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'C:\Xilinx\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\Blockchain_hardware_accelratoin\solution1\.autopilot\db\sha256.pp.0.cpp'
+        Offset:          259595
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        'C:\Xilinx\Vitis_HLS\2022.2\common\technology\autopilot\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\Blockchain_hardware_accelratoin\solution1\.autopilot\db\sha256.pp.0.cpp'
+        Offset:          521320
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_15_1:  '
+    FileOffset:      15
+    FilePath:        sha256.cpp
+    Replacements:    
+      - FilePath:        'D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\Blockchain_hardware_accelratoin\solution1\.autopilot\db\sha256.pp.0.cpp'
+        Offset:          888802
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_15_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_21_2:  '
+    FileOffset:      21
+    FilePath:        sha256.cpp
+    Replacements:    
+      - FilePath:        'D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\Blockchain_hardware_accelratoin\solution1\.autopilot\db\sha256.pp.0.cpp'
+        Offset:          888897
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_21_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_30_3:  '
+    FileOffset:      30
+    FilePath:        sha256.cpp
+    Replacements:    
+      - FilePath:        'D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\Blockchain_hardware_accelratoin\solution1\.autopilot\db\sha256.pp.0.cpp'
+        Offset:          889348
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_30_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_4:  '
+    FileOffset:      40
+    FilePath:        sha256.cpp
+    Replacements:    
+      - FilePath:        'D:\VLSI_Getting_in_Semiconductors\Projects\Blockchain_Hardware_accelration\Blockchaind_vitis\Blockchain_hardware_accelratoin\solution1\.autopilot\db\sha256.pp.0.cpp'
+        Offset:          889968
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_4: '
+...

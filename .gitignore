@@ -1,0 +1,17 @@
+# Ignore Vivado build and cache folders
+*/.Xil/
+*/*.cache/
+*/*.hw/
+*/*.ip_user_files/
+*/*.runs/
+*/*.sim/
+*/*.gen/
+
+# Ignore log and journal files
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.dir
+*.zip
